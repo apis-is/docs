@@ -1,6 +1,6 @@
-define(['domReady', 'vue', 'sidebar'], function(domReady, Vue, sidebar) {
+define(['domReady', 'vue', 'sidebar', 'fetch'], function(domReady, Vue, sidebar, fetch) {
   var init = function(data) {
-    Vue.filter('defaultIcon', function(value){
+    Vue.filter('defaultIcon', function(value) {
       // Returns a default icon if no value is given
       return value || 'cube';
     });
