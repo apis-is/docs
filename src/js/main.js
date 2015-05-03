@@ -1,4 +1,3 @@
-
 (function() {
   require.config({
     baseUrl: '/js',
