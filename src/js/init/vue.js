@@ -19,7 +19,7 @@ define(['domReady', 'vue', 'sidebar', 'fetch'], function(domReady, Vue, sidebar,
     new Vue({
       el: '#users',
       data: {
-        title: 'People using APIS.is',
+        title: 'Projects using APIS.is',
         users: data.users
       }
     });
