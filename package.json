@@ -57,5 +57,7 @@
     "type": "git",
     "url": "https://github.com/kristjanmik/apis.git"
   },
-  "scripts": {}
+  "scripts": {
+      "start": "gulp watch"
+  }
 }
