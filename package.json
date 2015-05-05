@@ -11,7 +11,8 @@
     "url": "https://github.com/kristjanmik/apis/issues"
   },
   "contributors": [
-    "Benedikt D Valdez <hello@bdvs.info>"
+    "Benedikt D Valdez <hello@bdvs.info>",
+    "Kristján Oddsson <koddsson@gmail.com>"
   ],
   "devDependencies": {
     "bower": "^1.3.12",
@@ -57,5 +58,7 @@
     "type": "git",
     "url": "https://github.com/kristjanmik/apis.git"
   },
-  "scripts": {}
+  "scripts": {
+      "start": "gulp watch"
+  }
 }
