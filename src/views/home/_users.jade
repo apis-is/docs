@@ -1,0 +1,8 @@
+section.section.dark(scrolltrigger)#users
+  article: row
+    column: .text-center
+      h2 {{ title }}
+      template(v-repeat="users")
+        column.large-6.medium-10.medium-centered
+          h3 <a class="light" href={{url}}>{{name}}</a>
+          p {{description}}

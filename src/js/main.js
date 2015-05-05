@@ -1,4 +1,3 @@
-
 (function() {
   require.config({
     baseUrl: '/js',
@@ -24,6 +23,8 @@
       modernizr: 'vendor/modernizr',
       vue: 'vendor/vue',
 
+      fetch: 'vendor/fetch',
+
       sidebar: 'kolibri/koli-sidebar',
       smoothscroll: 'kolibri/koli-smoothscroll',
       cssTranslate: 'kolibri/koli-css-translate',
@@ -37,10 +38,11 @@
 
     },
     shim: {
-      jquery: { exports: '$' },
-      jqEasing: { deps: ['jquery'] },
-      underscore: { exports: '_' },
-      modernizr: { exports: 'Modernizr' },
+      jquery: {exports: '$'},
+      jqEasing: {deps: ['jquery']},
+      underscore: {exports: '_'},
+      modernizr: {exports: 'Modernizr'},
+      fetch: {exports: 'fetch'},
     }
   });
 
